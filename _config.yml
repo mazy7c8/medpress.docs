@@ -2,8 +2,8 @@ theme: jekyll-theme-architect
 title: [MEDpress]
 description: [Strona domowa projektu]
 show_downloads: [true]
-repository_url: https://github.com/mazy7c8/MEDpress
-owner_url: https://github.com/mazy7c8
 github:
   zip_windows: https://we.tl/t-Ba7QrDTTcm
+  repository_url: https://github.com/mazy7c8/MEDpress
+  owner_url: https://github.com/mazy7c8
   
