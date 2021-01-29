@@ -39,6 +39,33 @@ Trzeba pamiętać że nazwa zmiennej to zazwyczaj wyrazy pisane bez znaków spec
 
 ### Jakie typy zmiennych obsługuje MEDpress?
 
+MEDpress ma zaimplementowane nastaępujące typy:
+
+*   **TX** = zmienna tekstowa, zamiast zmiennej pojawi się pole tekstowe w ktore mozesz wpisac dowolny inny tekst
+*   **RC** = zamiast zmiennej zostanie wyświetlona widoczna lista z okrągłymi przyciskami, gdzie możesz wybrać tylko jedną z opcji
+*   **CB** = zamiast zmiennej zostanie wyświetlona lista z kwadratowymi okienkami, możesz wybrać wiele opcji na raz
+*   **SB** = zamiast zmiennej zostanie wyświetlona rozwijana lista, z której możesz wybrać tylko jedną opcję
+*   **IF** = zmienna logiczna, służy do przechowywania innej zmiennej, która musi zostać osobno zdefiniowana w kodzie szablonu. Jej cechą jest opcja tak, która uaktywnia zmienną bądź opcja nie która zaniecha tworzenia zmiennej
+*   **TN** = potocznie zmienna Tak/Nie, za wartości przyjmuje pytanie oraz tekst który wyświetli po kliknięciu na tak lub nie
+*   **DT** = zamiast zmiennej pojawi się okienko kalendarza, w którym możesz wybrać datę
+*   **NB** = zamiast zmiennej pojawi się suwak na którym możesz wybrać liczbę.
+
+Aby poprawnie definiować kod szablonu przyjżyj się przykładowym zmiennym z kodu poniżej:
+
+```python
+'tekstowa':['TX']
+'radio choice':['RC','pierwsza opcja','druga opcja','trzecia opcja']
+'combo box':['CB','pierwsza opcja','druga opcja','trzecia opcja']
+'select box':['SB','pierwsza opcja','druga opcja','trzecia opcja']
+'jezeli':['IF','pytanie pomocnicze','nazwa innej zmiennej'] 
+'taknie':['TN','pytanie pomocnicze','jezeli tak','jezeli nie']
+'data':['DT']
+'number':['NB','zakres dol','zakres gora']
+```
+
+**Kolejność wartości w definicji zmiennej w kodzie szablonu determinuje sposób interpretacji danych przez program tak więc konieczne jest zachowanie staranności**
+
+Zmienne **RC CB SB** mogą mieć nieskończenie dużo opcji. Zmienne **TX i DT** mogą funkcjonować bez otoczenia ich nawiasem []. W pozostałych przypadkach te nawiasy są konieczne, a każde wartości muszą być oddzielone przecinkami i pozostać w pojedynczym cudzyslowiu. 
 ```markdown
 Syntax highlighted code block
 
