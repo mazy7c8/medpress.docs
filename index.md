@@ -20,6 +20,25 @@ Szablon to plik tekstowy. Domyślnie znajduje się w katalogu "szablony" MEDpres
 Tak wygląda przykładowy szablon otwarty w notatniku:
 ![Notatnik](https://i.imgur.com/YTdPVIU.png)
 
+### Co to jest kod szablonu?
+
+Jeżeli wydaje ci się to trudne, to wcale takie nie jest. Program sam generuje większość znaków i kodów potrzebnych do stworzenia kodu szablonu. Więcej o tym później
+
+Kod szablonu to tak naprawdę popularny format danych tzw słownik. Kod szablonu umieszczony jest pomiędzy znakami "{" i "}". W środku znajdują się opisy zmiennych. Format jest następujący:
+
+```python
+ "nazwazmiennej": [
+  "typzmiennej",
+  "wartosc1",
+  "wartosc2",
+  "wartosc3"
+ ],
+```
+
+Trzeba pamiętać że nazwa zmiennej to zazwyczaj wyrazy pisane bez znaków specjalnych i cyfr. Każda definicja zmiennej jest oddzielona od drugiej przecinkiem, mogą one występować w dowolnej kolejności w kodzie szablonu jednak nie mogą one się powtarzać. Każda ze zmiennych przyjmuje jeden typ który określa jej rodzaj "typzmiennej" oraz opcjonalne wartości.
+
+### Jakie typy zmiennych obsługuje MEDpress?
+
 ```markdown
 Syntax highlighted code block
 
