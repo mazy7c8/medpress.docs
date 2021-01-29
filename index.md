@@ -1,12 +1,24 @@
-## Welcome to GitHub Pages
+## Szybkie szablony dla medyków
 
-You can use the [editor on GitHub](https://github.com/mazy7c8/medpress.docs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Projekt służy do odbijania "kopiuj wklejek" lub innych monotonnych czynności tekstowych, które dotychczas były robione ręcznie tak, żeby nastąpiła ich półautomatyzacja. Program opiera się na strukturze szablonu co zostanie przestawione w kolejnych punktach. Program działa bez instalacji, możesz przenosić go na pendrive, wszystkie szablony zostaną wraz z tobą.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Co to jest szablon?
 
-### Markdown
+Szablon to plik tekstowy. Domyślnie znajduje się w katalogu "szablony" MEDpressa ale może być w każdym innym miejscu na komputerze. Aby został prawidłowo odczytany musi posiadać kilka cech:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+*   Pierwsza linijka pliku tekstowego musi rozpoczynać się trzema znakami hashtag: o tak "###"
+
+*   Opcjonalnie w pierwszej linijce po znakach hasthag jest dodawane wyrażenie "author=" które przechowuje pamięć o autorze szablonu
+
+*   Potem do końca lini jest zakodowany **kod szablonu** który zaczyna się znakiem "{" i kończy znakiem "}". O kodzie szablonu więcej poniżej.
+
+*   Pomiędzy pierwszą linią tzw nagłówkiem a tekstem szablonu musi istnieć pusta linia. Linia nr 2 jest pusta!
+
+*   Kolejne linie to **tekst szablonu**. W tekście szablonu występują **zmienne**. Zmienne są otoczone znakami "{{" z lewej strony i "}}" z prawej strony. Zmienne podczas wydruku są zamieniane na normalny tekst.
+
+Tak wygląda przykładowy szablon otwarty w notatniku:
+![Notatnik](https://i.imgur.com/YTdPVIU.png)
 
 ```markdown
 Syntax highlighted code block
