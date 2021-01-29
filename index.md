@@ -65,7 +65,32 @@ Aby poprawnie definiować kod szablonu przyjżyj się przykładowym zmiennym z k
 
 **Kolejność wartości w definicji zmiennej w kodzie szablonu determinuje sposób interpretacji danych przez program tak więc konieczne jest zachowanie staranności**
 
-Zmienne **RC CB SB** mogą mieć nieskończenie dużo opcji. Zmienne **TX i DT** mogą funkcjonować bez otoczenia ich nawiasem []. W pozostałych przypadkach te nawiasy są konieczne, a każde wartości muszą być oddzielone przecinkami i pozostać w pojedynczym cudzyslowiu. 
+Zmienne **RC CB SB** mogą mieć nieskończenie dużo opcji. Zmienne **TX i DT** mogą funkcjonować bez otoczenia ich nawiasem []. W pozostałych przypadkach te nawiasy są konieczne, a każde wartości muszą być oddzielone przecinkami i pozostać w pojedynczym cudzyslowiu.
+
+
+### Jak stworzyć szablon?
+
+1.  Kliknij na duży żółty przycisk w lewej górnej krawędzi "Stwórz szablon""
+
+1.  Wpisz kolejno tytuł szablonu i wklej tekst który chcesz żeby stał się szablonem
+
+![tekst](https://i.imgur.com/jT0NzCp.png)
+
+1.  Następnie zapisz przyciskiem po prawej stronie lub klawiszami ctrl+s
+
+1.  Stwórz zmienne w polu po lewej stronie dodając enkapsulacje {{ }} i kliknij generuj zmienne na dole
+
+![generuj](https://i.imgur.com/9we1t8x.png)
+
+1.  W kodzie szablonu pojawiły się domyślne zmienne tekstowe, możesz zapisać teraz szablon aby nie stracić danych przez pomyłkę
+1.  Teraz zmień kod szablonu np na taki:
+
+![kod](https://i.imgur.com/UeWHTpI.png)
+
+1.  Zapisz szablon guzikiem po prawej stronie
+1.  Wyjdź z okna klikając "close" i gotowe.
+
+
 ```markdown
 Syntax highlighted code block
 
