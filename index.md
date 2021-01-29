@@ -90,31 +90,29 @@ Zmienne **RC CB SB** mogą mieć nieskończenie dużo opcji. Zmienne **TX i DT**
 1.  Zapisz szablon guzikiem po prawej stronie
 1.  Wyjdź z okna klikając "close" i gotowe.
 
+### Jak wydrukować szablon?
 
-```markdown
-Syntax highlighted code block
+1.  Wybierz szablon z listy i kliknij na niego dwa razy
 
-# Header 1
-## Header 2
-### Header 3
+![wybierz](https://i.imgur.com/6sfmTKs.png)
 
-- Bulleted
-- List
+1.  Pojawi się on w okienku wejściowo wejściowy jako czteroliterowy skrót, skróty możesz wpisywać ręcznie lub wybierać szablony dwuklikiem, wtedy skrót tam się znajdzie. 
+1.  Jak masz wpisany skrót klikasz "Rozpocznij wypis"
 
-1. Numbered
-2. List
+![rozpocznij](https://i.imgur.com/EzeHbS2.png)
 
-**Bold** and _Italic_ and `Code` text
+1.  Teraz wyświetlił Ci się obszar roboczy, tutaj wypełnij zmienne myszką lub klawiaturą (przy użyciu klawiszy Tab i Spacja)
 
-[Link](url) and ![Image](src)
-```
+![roboczy](https://i.imgur.com/RYFigYE.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+1.  Możesz kliknąć Zakończ lub szybciej ctrl+z
 
-### Jekyll Themes
+1.  Wydrukowany szablon pojawił się w górnym oknie. Teraz możesz go skopiować do schowka przyciskiem lub skrótem ctrl+c albo stworzyć dokument worda w katalogu MEDpress który będzie zawierał twój wydruk
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mazy7c8/medpress.docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![wynik](https://i.imgur.com/198ZQjK.png)
 
-### Support or Contact
+Wybieraj kolejne szablony i drukuj dalej.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Jeżeli coś ci się nie podoba nie musisz startować szablonu od początku, zmień myszką to co jest nie tak i kliknij zakończ lub ctrl+z, okienko uaktualni się o zmiany które wprowadziłeś**
+
+
