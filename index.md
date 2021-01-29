@@ -115,6 +115,8 @@ Wybieraj kolejne szablony i drukuj dalej.
 
 **Jeżeli coś ci się nie podoba nie musisz startować szablonu od początku, zmień myszką to co jest nie tak i kliknij zakończ lub ctrl+z, okienko uaktualni się o zmiany które wprowadziłeś**
 
+**Jeżeli jednak chcesz zacząć od nowa kliknij zielony przycisk "Odśwież" z lewej strony, spowoduje on wyczyszczenie pola roboczego, wybierz  szablon ponownie z listy po lewej i nacisnij ctrl+s
+
 ### Jak korzystać z wydruków?
 
 Najlepiej błyskawicznie. Kopiuj skrótem klawiszowym ctrl+c i wklejaj tam gdzie jest to potrzebne. Pamietaj ze po wybraniu innego szablonu z listy skasujesz zawartosc wydruku. Jeżeli planujesz użyć później jeszcze raz wydruku, dobrą opcją jest eksport do pliku docx. Plik będzie przechowywał twój ostatni wydruk przy użyciu tej funkcji w folderze MEDpressu nawet po zamkniecu programu.
@@ -125,10 +127,14 @@ Zaznacz go aby sie podsiwetlil na liście i kliknij "Edytuj w edytorze". Możesz
 
 **Czasem zdarza się że popełnisz błąd podczas edycji, np zapomnisz znaku ktory zamyka sekwencje, wtedy program wyswietli okienko ktore pokaze Ci w ktorym miejscu brakuje znaku, jezeli przycisk zamiga na zielono, to znaczy ze poprawnie zapisales zmiany**
 
-
 ### Jak dodawać nowe szablony?
 
 Oprócz tworzenia ich w programie możesz tworzyć je poza programem np w notatniku i kopiować je do folderu szablony. Możesz też otrzymać od kogoś taki szablon i możesz wkleić go na stałe do swojej listy. Jeżeli chcesz jednorazowo skorzystać z szablonu który jest poza folderem szablony użyj zielonego przycisku "Wgraj z pliku". Doda się on wtedy na twoją listę, ale po zamknięciu aplikacji program zapomni o nim. Jeżeli chesz z niego korzystać na stałe, zrób kopie do folderu szablony.
+
+
+### Cos sie dzieje nie tak, program sie zamyka badz nie wyswietla poprawnie
+
+Prawdopodobnie jeden z twoich szablonow jest blednie zdefiniowany, upewnij sie że folder szablony zawiera przynajmniej jeden szablon, sprawdź strukture szablonu zgodnie z instrukcją.
 
 
 
